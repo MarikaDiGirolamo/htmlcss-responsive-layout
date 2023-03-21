@@ -1,0 +1,8 @@
+.boxed{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav a, button{
+    display: none;
+}
