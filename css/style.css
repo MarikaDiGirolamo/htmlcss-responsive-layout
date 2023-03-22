@@ -63,9 +63,15 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
-.i {
-    font-size: 2rem;
+.cell-icon{
+    width: 55px;
+    height: 80px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .cell-title {
@@ -111,16 +117,19 @@
 }
 /* Boc Viola */
 
-.plan-box{
-    margin-inline: auto;
-}
+
 .plan-left,
 .plan-right {
+    width: 50%;
     margin-top: 2rem;
 }
 
+.plan-left{
+    margin-bottom: 8.75rem;
+}
+
 .plan-right {
-    margin-bottom: 2rem;
+    margin-top: 9.375rem;
 }
 
 .white-box-plan {
@@ -157,12 +166,13 @@
 
 .planning1,
 .planning2 {
-    width: 200px;
+    width: 300px;
     margin-bottom: 3rem;
 }
 
-.planning1 {
-    display: flex;
+.planning-btn{
+    border: none;
+    border-radius: 50%;
 }
 
 /* Box Bianca Testimonials */
@@ -260,7 +270,6 @@
 /* Box bianca About Us */
 .about-us {
     margin-inline: auto;
-    padding-top: 5rem;
     position: relative;
 }
 
@@ -350,6 +359,18 @@
     font-size: 1.5rem;
     font-weight: 100;
     opacity: 0.5;
+}
+.getstart-a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.started-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2.2rem;
+}
+.privacy{
+    text-decoration: underline;
 }
 /* Footer */
 
