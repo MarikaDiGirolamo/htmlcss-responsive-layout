@@ -1,0 +1,18 @@
+/* 
+/* Tablet */
+
+@media screen and (min-width: 769px) and (max-width:992px){
+    body.debug{background-color: violet;}
+}
+
+/* Desktop */
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+    body.debug{background-color: purple;}
+    body.debug{background-color: pink;}
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1201px){
+    body.debug{background-color: crimson;}
+} */
