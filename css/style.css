@@ -1,8 +1,368 @@
 .boxed{
-    max-width: 600px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
-nav a, button{
+/* Header */
+
+.menu-icon{
     display: none;
 }
+
+.nav-link, .nav-btn{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.nav-btn{
+    padding: 5px;
+    border-radius: 30px;
+}
+
+/* Main- ODD BOXES*/
+
+.box-options {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container-grid {
+    --gapx: 1rem;
+	--gapy: 1rem;
+}
+
+.cells {
+	gap: var(--gapy) var(--gapx);
+}
+
+.cell {
+    flex-basis: calc((100% - 2 * var(--gapx)) / 3);
+}
+
+.cell-big {
+    flex-basis: calc(2 * ((100% - 2 * var(--gapx)) / 3) + var(--gapx));
+    
+}
+
+.content-big {
+    background-color: rgba(181,221,255,255);
+    border-radius: 30px;
+}
+
+
+.content-left {
+    width: 50%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cell-title,
+.cell-p,
+.cell-a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.i {
+    font-size: 2rem;
+}
+
+.cell-title {
+    font-size: 1.5rem;
+    color: rgba(0,132,253,255);
+}
+
+
+.cell-p {
+    font-size: 1.1rem;
+}
+
+.cell-a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.cell-btn{
+    width: 220px;
+    border-radius: 10px;
+}
+
+.content-right {
+    width: 50%;
+    align-items: flex-end;
+}
+
+.cell-icon {
+    margin-top: .5rem;
+    font-size: 3rem;
+    color: rgba(0,132,253,255);
+}
+
+.content-small {
+    background-color: rgba(181,221,255,255);
+    border-radius: 25px;
+
+}
+
+.cell-phone {
+    height: 220px;
+}
+/* Boc Viola */
+
+.plan-box{
+    margin-inline: auto;
+}
+.plan-left,
+.plan-right {
+    margin-top: 2rem;
+}
+
+.plan-right {
+    margin-bottom: 2rem;
+}
+
+.white-box-plan {
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.plan-title,
+.plan-p {
+    margin-top: 1rem;
+}
+
+.plan-title {
+    font-size: 2rem;
+    color: white;
+}
+
+.plan-p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.plan-title-right {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.plan-p-right {
+    font-size: 1.2rem;
+}
+
+
+.planning1,
+.planning2 {
+    width: 200px;
+    margin-bottom: 3rem;
+}
+
+.planning1 {
+    display: flex;
+}
+
+/* Box Bianca Testimonials */
+
+.introducing-partners {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.partners-h4 {
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.partners-h2 {
+    margin-bottom: 2rem;
+    color: rgb(151, 146, 228);
+    font-size: 3rem;
+}
+
+.partners-p {
+    font-size: 1.2rem;
+}
+
+
+.partnersquote {
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+
+.quotebox {
+    width: 100%;
+}
+
+
+.quote {
+    margin-bottom: 1rem;
+}
+
+
+.partnersquote img{
+    padding: 1rem;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Benefits */
+.benefits-title{
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;    
+}
+
+.benefits-box{
+    margin-top: 10rem;
+}
+
+.benefits-grid{
+    max-width: 80%;
+    margin-inline: auto;
+    gap: .8rem;
+    padding-bottom: 8rem;
+}
+
+.square-benefits{
+    width: calc((100% - 2rem) / 3);
+    border-radius: 1rem;
+}
+
+.number{
+    font-size: 3rem;
+}
+
+.info-benefits {
+    font-size: 1.3rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.benefits-p {
+    max-width: 90%;
+    line-height: 1.5rem;
+}
+
+.benefits-btn{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+/* Box bianca About Us */
+.about-us {
+    margin-inline: auto;
+    padding-top: 5rem;
+    position: relative;
+}
+
+
+.about-left {
+    flex: 0 1 50%;
+
+}
+
+.about-title {
+    margin-bottom: 3rem;
+    color: rgb(151, 146, 228);
+}
+
+.about-p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-img {
+    padding: 1rem;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.helper {
+    flex: 0 1 50%;
+}
+
+.helper-p {
+    width: 50%;
+    font-size: 1.5rem;
+    color: rgb(151, 146, 228);
+}
+
+.about-btn{
+    border: none;
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
+.li-link {
+    width: 50%;
+    color: white;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Box VIola - Get Started */
+
+.getstart {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    color: white;
+}
+
+.getstart-box {
+    width: 50%;
+    margin-inline: auto;
+}
+
+.getstart-p {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.getstart-title,
+.simple-title,
+.free-title {
+    margin-bottom: 2rem;
+}
+
+.free-title {
+    font-size: 4rem;
+}
+
+.simple-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.getstart-title {
+    font-size: 1.5rem;
+    font-weight: 100;
+    opacity: 0.5;
+}
+/* Footer */
+
+.footer-info {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    width: 50%;
+    margin-inline: auto;
+}
+
+.footer-p {
+    margin-bottom: 2rem;
+}
+
+
